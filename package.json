@@ -1,0 +1,19 @@
+{
+  "name": "casa-parrilla-system",
+  "version": "1.0.0",
+  "description": "Casa Parrilla System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosTGodoy/casa-parrilla-system.git"
+  },
+  "author": "Carlos Godoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosTGodoy/casa-parrilla-system/issues"
+  },
+  "homepage": "https://github.com/CarlosTGodoy/casa-parrilla-system#readme"
+}
