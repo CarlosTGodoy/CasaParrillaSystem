@@ -1,0 +1,94 @@
+/* Fondo */
+body{
+  background-image: url(../img/Parrilla.jpeg);
+  height: 100vh;
+  background-position: top center;
+  background-position: center;
+
+  /*Propedades para adapatar la imagen de fondo a la pantalla*/
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+}
+div.logo{
+  margin-left: 20px;
+}
+div.contenido-header{
+  padding-top: 40px;
+}
+
+/* Inicio */
+div.form-check{
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 3.0em;
+  text-align: center;
+  margin-right: 40px;
+  
+}
+@media only screen and (min-width: 768px){
+  div.contenido{
+      padding-top: 10px;
+      
+  }
+}
+div.col-12{
+  text-align: center;
+  margin-right: 40px;
+  
+}
+div.col-12 a{
+    padding: 15px 35px;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 1px 1px black;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all .3s ease;
+    border: 2px solid #47A530;
+    background-color: #47A530;
+}
+div.col-12 a:hover{
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+/* Nombre */
+div.form-check2{
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 2em;
+  margin-left:30px;
+}
+@media only screen and (min-width: 768px){
+  div.contenido{
+      padding-top: 10px;
+      
+  }
+}
+
+div.campo{
+  
+  font-size: 2em;
+  padding: 20px;
+  border-radius:20px;
+}
+div.campo input{
+  border: 1px solid #fe4918;
+}
+@media only screen and (min-width: 768px){
+  div.campo{
+      float: left;
+      width: 33.3%;
+  }
+}

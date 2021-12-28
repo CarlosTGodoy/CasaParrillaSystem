@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/CarlosTGodoy/casa-parrilla-system/issues"
   },
-  "homepage": "https://github.com/CarlosTGodoy/casa-parrilla-system#readme"
+  "homepage": "https://github.com/CarlosTGodoy/casa-parrilla-system#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
