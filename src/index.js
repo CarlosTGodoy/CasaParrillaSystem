@@ -19,6 +19,7 @@ app.engine('ejs', engine);
 
 // CONFIGURACIONES
 app.set('view engine', 'ejs');
+const hostname = '127.0.0.1';
 app.set('port', process.env.PORT || 3000); // VA Y BUSCA EL PUERTO DISPONIBLE
 
 // IMPORTAR RUTAS
@@ -26,5 +27,5 @@ app.use('/', require('./routes/routes'));
 
 // EMPEZAR SERVIDOR
 app.listen(app.get('port'), () => {
-    console.log('El servidor esta escuchando', app.get('port'));
+    console.log(`El servidor se est\á corriendo en ${hostname}:${app.get('port')}`);
 });

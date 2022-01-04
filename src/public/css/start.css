@@ -15,22 +15,19 @@ body{
   -o-background-size: cover !important;
 }
 
-#contenido {
+.contenido {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.elemento {
-  height: 220px;
-}
-
-#logo-casa-parrilla {
+.logo {
   padding: 20px 20px;
 }
 
-#bienvenida {
+.bienvenida {
   padding: 25px;
+  padding-top: 80px;
   color: white;
   font-weight: bold;
   text-shadow: 1px 1px black;
@@ -39,23 +36,23 @@ body{
   text-align: center;
 }
 
-#boton-inicio {
-  padding: 25px;
+.boton-inicio {
+  padding: 20%;
   text-align: center;
 }
 
-#boton-inicio a {
+.boton-inicio a {
   padding: 5px 20px;
-  border-radius: 10px;
+  border-radius: 15px;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
   text-shadow: 1px 1px black;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.7em;
   display: inline-block;
-    transition: all .3s ease;
-    border: 2px solid #47A530;
-    background-color: #47A530;
+  transition: all .3s ease;
+  border: 2px solid #2ea44f;
+  background-color: #2ea44f;
 }
