@@ -1,4 +1,6 @@
 html {
+  margin: 0%;
+  padding: 0%;
   width: 100%;
   height: 100%;
 }
@@ -6,7 +8,6 @@ html {
 body{
   background-image: url(../img/Parrilla.jpeg);
   background-repeat: no-repeat;
-  height: 100%;
   background-position: center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
@@ -15,7 +16,46 @@ body{
 }
 
 #contenido {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  display: grid;
-  grid-template-rows: 50px 100px;
+}
+
+.elemento {
+  height: 220px;
+}
+
+#logo-casa-parrilla {
+  padding: 20px 20px;
+}
+
+#bienvenida {
+  padding: 25px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 2.3em;
+  text-align: center;
+}
+
+#boton-inicio {
+  padding: 25px;
+  text-align: center;
+}
+
+#boton-inicio a {
+  padding: 5px 20px;
+  border-radius: 10px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 1px 1px black;
+  text-decoration: none;
+  font-size: 1.5em;
+  display: inline-block;
+    transition: all .3s ease;
+    border: 2px solid #47A530;
+    background-color: #47A530;
 }
