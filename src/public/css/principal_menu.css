@@ -13,8 +13,8 @@ body {
   justify-content: space-between;
 }
 
-.section, .options, .social{
-  padding: 50px; 
+.section {
+  padding: 50px;
   text-align: center;
   color: white;
   text-shadow: 1px 1px black;
@@ -22,11 +22,20 @@ body {
   font-size: 1.4em;
 }
 
-.section a, .social a{
+.section a, .header{
   color: white;
   text-decoration: none;
+  font-weight: bold;
   text-shadow: 1px 1px black;
   font-size: 1.4em;
+}
+
+.header {
+  padding: 10px;
+}
+
+.options {
+  text-align: center;
 }
 
 .entradas {
@@ -49,8 +58,43 @@ body {
   background-image: url(../img/pepitos.jpg);
 }
 
+.cortes {
+  background-image: url(../img/cortes.jpg);
+}
+
+.parrilladas {
+  background-image: url(../img/parrilladas.jpg);
+}
+
+.mariscos {
+  background-image: url(../img/mariscos.jpg);
+}
+
+.bebidas {
+  background-image: url(../img/bebidas.jpg);
+}
+
+.postres {
+  background-image: url(../img/postres.jpg);
+}
+
 body div.section{
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
   -o-background-size: cover !important;
+}
+
+.pedido {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color: #FE871D;
+	color: white;
+	border-radius:50px;
+	text-align:center;
+  font-size: 2em;
+  font-weight: bold;
+	box-shadow: 2px 2px 3px black;
 }
