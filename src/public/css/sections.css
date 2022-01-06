@@ -1,0 +1,124 @@
+html {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: white;
+}
+
+.contenido .platillos{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header_entrada {
+  background-image: url(../img/entradas.jpg);
+}
+
+.header_tacos {
+  background-image: url(../img/tacos.jpg);
+}
+
+.header_empanadas {
+  background-image: url(../img/empanadas.jpg);
+}
+
+.header_hamburguesas {
+  background-image: url(../img/hamburguesa.jpg);
+}
+
+.header_pepitos {
+  background-image: url(../img/pepitos.jpg);
+}
+
+.header_cortes {
+  background-image: url(../img/cortes.jpg);
+}
+
+.header_parrilladas {
+  background-image: url(../img/parrilladas.jpg);
+}
+
+.header_mariscos {
+  background-image: url(../img/mariscos.jpg);
+}
+
+.header_bebidas {
+  background-image: url(../img/bebidas.jpg);
+}
+
+.header_postres {
+  background-image: url(../img/postres.jpg);
+}
+
+.portada{
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  padding: 10px;
+}
+
+.portada svg {
+  color: white;
+  font-size: 1.5em;
+}
+
+.nombre_section{
+  padding: 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+  font-size: 2em;
+  text-align: center;
+}
+
+.platillos {
+ padding: 5px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.platillo-descripcion, .contador{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nombre_platillo{
+  color: black;
+  font-weight: bold;
+}
+
+.resena {
+  font-size: .8em;
+  width: 50%;
+}
+
+.contador, .precio{
+  width: 20%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.resta, .suma {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.pedido {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color: #FE871D;
+	color: white;
+	border-radius:50px;
+	text-align:center;
+  font-size: 2em;
+  font-weight: bold;
+	box-shadow: 2px 2px 3px black;
+}
+
