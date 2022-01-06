@@ -70,4 +70,9 @@ router.get('/postres', (req, res) => {
   res.render('postres');
 });
 
+// PEDIDO VIEW
+router.get('/pedido', (req, res) => {
+  res.render('pedido');
+});
+
 module.exports = router;

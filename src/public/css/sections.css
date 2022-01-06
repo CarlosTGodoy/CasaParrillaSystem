@@ -107,7 +107,7 @@ body {
   font-size: 2em;
 }
 
-.pedido {
+.pedido a{
 	position:fixed;
 	width:60px;
 	height:60px;

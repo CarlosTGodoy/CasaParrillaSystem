@@ -22,7 +22,7 @@ body {
   font-size: 1.4em;
 }
 
-.section a, .header{
+.section a, .header a, .options{
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -97,4 +97,8 @@ body div.section{
   font-size: 2em;
   font-weight: bold;
 	box-shadow: 2px 2px 3px black;
+}
+
+.pedido svg {
+  color: white;
 }
