@@ -1,0 +1,97 @@
+html {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: white;
+}
+
+.contenido .platillos{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-summary {
+  background-color: black;
+  padding: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+.header-summary svg {
+  color: white;
+  font-size: 1.5em;
+}
+
+.imagen-summary {
+  background-image: url(../img/logo_boutique.png);
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  padding: 50px;
+}
+
+.header-title {
+  padding: 50px;
+  align-items: center;
+}
+
+.platillos, .titulos, .summary-total {
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.platillo, .summary-pedido, .titulos, .summary-platillo-titulo, .summary-total {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nombre-platillo-titulo {
+  width: 60%;
+}
+
+.summary-platillo-titulo {
+  width: 40%;
+}
+
+.nombre-platillo {
+  width: 70%;
+}
+
+.footer {
+  padding: 10px;
+}
+
+.summary-pedido {
+  width: 30%;
+}
+
+.costo, .total-pagar {
+  font-weight: bold;
+}
+
+.summary-total {
+  border-top: black 2px solid;
+  border-bottom:  black 2px solid;
+  position: float;
+}
+
+.acciones {
+  padding: 20px;
+  width: 100%;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ordenar {
+  padding: 5px 15px;
+  border-radius: 15px;
+  color: white;
+  font-size: 1.7em;
+  display: inline-block;
+  transition: all .3s ease;
+}
