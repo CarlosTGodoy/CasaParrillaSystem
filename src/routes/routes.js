@@ -75,4 +75,19 @@ router.get('/pedido', (req, res) => {
   res.render('pedido');
 });
 
+// TARJETA VIEW
+router.get('/tarjeta', (req, res) => {
+  res.render('terjeta');
+});
+
+// PAGO EFECTUADO VIEW
+router.get('/pago_efectuado', (req, res) => {
+  res.render('pago_efectuado');
+});
+
+// FACTURA VIEW
+router.get('/facturacion', (req, res) => {
+  res.render('facturacion');
+});
+
 module.exports = router;

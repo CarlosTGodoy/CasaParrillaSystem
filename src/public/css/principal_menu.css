@@ -84,13 +84,13 @@ body div.section{
   -o-background-size: cover !important;
 }
 
-.pedido {
+.mesero {
 	position:fixed;
 	width:60px;
 	height:60px;
 	bottom:40px;
-	right:40px;
-	background-color: #FE871D;
+	right:77%;
+  background-color: #F1C03D;
 	color: white;
 	border-radius:50px;
 	text-align:center;
@@ -99,6 +99,21 @@ body div.section{
 	box-shadow: 2px 2px 3px black;
 }
 
-.pedido svg {
+.pedido {
+  position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:10%;
+  background-color: #7FCC53;
+	color: white;
+	border-radius:50px;
+	text-align:center;
+  font-size: 2em;
+  font-weight: bold;
+	box-shadow: 2px 2px 3px black;
+}
+
+.pedido svg, .mesero svg {
   color: white;
 }
