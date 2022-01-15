@@ -77,7 +77,7 @@ router.get('/pedido', (req, res) => {
 
 // TARJETA VIEW
 router.get('/tarjeta', (req, res) => {
-  res.render('terjeta');
+  res.render('tarjeta');
 });
 
 // PAGO EFECTUADO VIEW
