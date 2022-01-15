@@ -1,0 +1,94 @@
+html {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: white;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-informacion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-facturacion {
+  background-color: black;
+  padding: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+.header-facturacion svg {
+  color: white;
+  font-size: 1.5em;
+}
+
+.header-imagen {
+  background-image: url(../img/logo_casa_parrilla_sin_bordes.png);
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  height: 100px;
+  width: 100px;
+}
+
+.header-titulo h1{
+  color: white;
+  font-size: 1.4em;
+}
+
+.informacion-factura, .direccion_empresa {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+label, h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.razon_social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.acciones {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  font-size: 1.2em;
+  border-radius:5px;
+  border: 1px solid #fe4918;
+}
+
+.ordenar {
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.2em;
+  display: inline-block;
+  transition: all .3s ease;
+}
+
+.cancelar {
+  background-color: #F13030;
+  border: 2px solid #F13030;
+}
+
+.crear {
+  background-color: #2ea44f;
+  border: 2px solid #2ea44f;
+}
