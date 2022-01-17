@@ -58,6 +58,10 @@ body {
   -moz-background-size: cover !important;
   -o-background-size: cover !important;
   padding: 10px;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .portada svg {

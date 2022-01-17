@@ -23,7 +23,7 @@
             d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
         </svg>
       </a>
-      <div class="nombre_section">
+      <div class="nombre_section" id="entradasSection">
         Entradas
       </div>
     </div>
@@ -42,16 +42,16 @@
             $ 70
           </div>
           <div class="contador">
-            <button class="restar" id="restar-guacamole"><i class="bi bi-dash-circle"></i></button>
+            <button class="restar" id="quitarGuacamole"><i class="bi bi-dash-circle"></i></button>
             <input type="number" id="contadorGuacamole" class="cantidad" value="0" min="0" max="50">
-            <button class="agregar" id="agregar-guacamole"><i class="bi bi-plus-circle"></i></i></button>
+            <button class="agregar" id="agregarGuacamole"><i class="bi bi-plus-circle"></i></i></button> 
           </div>
         </div>
       </div>
       <br>
       <div id="platillo2">
         <div class="nombre_platillo">
-          Ensalada
+          Ensalada Palmito
         </div>
         <div class="platillo-descripcion">
           <div class="resena">
@@ -63,20 +63,56 @@
             $ 70
           </div>
           <div class="contador">
-            <div class="resta">
-              -
-            </div>
-            <div class="cantidad">
-              <label for="">N</label>
-            </div>
-            <div class="suma">
-              +
-            </div>
+            <button class="restar" id="quitarEnsaladaPalmito"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorEnsaladaPalmito" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarEnsaladaPalmito"><i class="bi bi-plus-circle"></i></i></button> 
           </div>
         </div>
       </div>
       <br>
-      <div id="platillo1">
+      <div id="platillo3">
+        <div class="nombre_platillo">
+          Ensalada Aguacate
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 70
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarEnsaladaAguacate"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorEnsaladaAguacate" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarEnsaladaAguacate"><i class="bi bi-plus-circle"></i></i></button> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="platillo4">
+        <div class="nombre_platillo">
+          Ensalada Mix de Lechugas
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 70
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarEnsaladaMix"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorEnsaladaMix" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarEnsaladaMix"><i class="bi bi-plus-circle"></i></i></button> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="platillo5">
         <div class="nombre_platillo">
           Calamar Capeado
         </div>
@@ -90,18 +126,248 @@
             $ 115
           </div>
           <div class="contador">
-            <div class="resta">
-              -
-            </div>
-            <div class="cantidad">
-              <label for="">N</label>
-            </div>
-            <div class="suma">
-              +
-            </div>
+            <button class="restar" id="quitarCalamarCapeado"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorCalamarCapeado" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarCalamarCapeado"><i class="bi bi-plus-circle"></i></i></button> 
           </div>
         </div>
       </div>
+      <br>
+      <div id="platillo6">
+        <div class="nombre_platillo">
+          Queso Fundido
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 75
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarQuesoFundido"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorQuesoFundido" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarQuesoFundido"><i class="bi bi-plus-circle"></i></i></button> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="platillo7">
+        <div class="nombre_platillo">
+          Queso Fundido con Chorizo
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 90
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarQuesoFundidoChorizo"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorQuesoFundidoChorizo" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarQuesoFundidoChorizo"><i class="bi bi-plus-circle"></i></i></button> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="platillo8">
+        <div class="nombre_platillo">
+          Queso Fundido con Chistorra
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 90
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarQuesoFundidoChistorra"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorQuesoFundidoChistorra" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarQuesoFundidoChistorra"><i class="bi bi-plus-circle"></i></i></button> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="platillo9">
+        <div class="nombre_platillo">
+          Tuétanos
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 130
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarTuetanos"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorTuetanos" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarTuetanos"><i class="bi bi-plus-circle"></i></i></button> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="platillo10">
+        <div class="nombre_platillo">
+          Chistorra
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 75
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarChistorra"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorChistorra" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarChistorra"><i class="bi bi-plus-circle"></i></i></button> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="platillo10">
+        <div class="nombre_platillo">
+          Mollejas
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 70
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarMollejas"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorMollejas" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarMollejas"><i class="bi bi-plus-circle"></i></i></button> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="platillo11">
+        <div class="nombre_platillo">
+          Chicarron New York
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 115
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarChicharronNewYork"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorChicharronNewYork" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarChicharronNewYork"><i class="bi bi-plus-circle"></i></i></button> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="platillo12">
+        <div class="nombre_platillo">
+          Vegetales al Grill
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 85
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarVegetalesGrill"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorVegetalesGrill" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarVegetalesGrill"><i class="bi bi-plus-circle"></i></i></button> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="platillo13">
+        <div class="nombre_platillo">
+          Papas a la Francesa
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 35
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarPapasFrancesa"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorPapasFrancesa" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarPapasFrancesa"><i class="bi bi-plus-circle"></i></i></button> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="platillo14">
+        <div class="nombre_platillo">
+          Papas Gajo
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 40
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarPapasGajo"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorPapasGajo" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarPapasGajo"><i class="bi bi-plus-circle"></i></i></button> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="platillo14">
+        <div class="nombre_platillo">
+          Aros Cebolla
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 55
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarArosCebolla"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorArosCebolla" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarArosCebolla"><i class="bi bi-plus-circle"></i></i></button> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
     </form>
     <div class="acciones">
       <div class="mesero">
@@ -125,9 +391,5 @@
 </body>
 
 <script src="js/sections.js" language="javascript" type="text/javascript"></script>
-</html>
 
-<script>
-  console.log('js from entrada');
-  
-</script>
+</html>
