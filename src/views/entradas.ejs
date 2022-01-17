@@ -27,7 +27,7 @@
         Entradas
       </div>
     </div>
-    <div class="platillos">
+    <form class="platillos">
       <div id="platillo1">
         <div class="nombre_platillo">
           Guacamole
@@ -42,15 +42,9 @@
             $ 70
           </div>
           <div class="contador">
-            <div class="resta">
-              -
-            </div>
-            <div class="cantidad">
-              <label for="">N</label>
-            </div>
-            <div class="suma">
-              +
-            </div>
+            <button class="restar" id="restar-guacamole"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorGuacamole" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregar-guacamole"><i class="bi bi-plus-circle"></i></i></button>
           </div>
         </div>
       </div>
@@ -108,7 +102,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </form>
     <div class="acciones">
       <div class="mesero">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person"
@@ -130,4 +124,10 @@
   </div>
 </body>
 
+<script src="js/sections.js" language="javascript" type="text/javascript"></script>
 </html>
+
+<script>
+  console.log('js from entrada');
+  
+</script>
