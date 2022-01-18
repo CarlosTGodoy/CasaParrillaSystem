@@ -115,3 +115,20 @@ if (parrilladasSection) {
   let parrilladaCarniceria = agregarProducto('quitarParrillaCarniceria', 'agregarParrillaCarniceria', 'contadorParrillaCarniceria');
   let parrilladaMarTierra = agregarProducto('quitarParrillaMarTierra', 'agregarParrillaMarTierra', 'contadorParrillaMarTierra');
 }
+
+// MARISCOS
+let mariscosSection = document.getElementById('mariscosSection');
+
+if (mariscosSection) {
+  let mariscosPulpoZuniga = agregarProducto('quitarMariscosPulpoZuniga', 'agregarMariscosPulpoZuniga', 'contadorMariscosPulpoZuniga');
+  let mariscosCamaronesGrill = agregarProducto('quitarMariscosCamaronesGrill', 'agregarMariscosCamaronesGrill', 'contadorMariscosCamaronesGrill');
+  let mariscosAguachileVerde = agregarProducto('quitarMariscosAguachileVerde', 'agregarMariscosAguachileVerde', 'contadorMariscosAguachileVerde');
+  let mariscosAguachileNegro = agregarProducto('quitarMariscosAguachileNegro', 'agregarMariscosAguachileNegro', 'contadorMariscosAguachileNegro');
+  let mariscosTostadaMarina = agregarProducto('quitarMariscosTostadaMarina', 'agregarMariscosTostadaMarina', 'contadorMariscosTostadaMarina');
+  let mariscosTostadaAtun = agregarProducto('quitarMariscosTostaditasAtun', 'agregarMariscosTostaditasAtun', 'contadorMariscosTostaditasAtun');
+}
+
+// POSTRES
+let postreVolcanChocolate = agregarProducto('quitarPostreVolcanChocolate', 'agregarPostreVolcanChocolate', 'contadorPostreVolcanChocolate');
+let postreChurrosCajeta = agregarProducto('quitarPostreChurrosCajeta', 'agregarPostreChurrosCajeta', 'contadorPostreChurrosCajeta');
+let postreFlan = agregarProducto('quitarPostreFlan', 'agregarPostreFlan', 'contadorPostreFlan');
