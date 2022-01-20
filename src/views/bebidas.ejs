@@ -9,10 +9,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   <title>Casa Parrilla</title>
 </head>
-
-
 
 <body>
   <div class="contenido">
@@ -24,11 +23,11 @@
             d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
         </svg>
       </a>
-      <div class="nombre_section">
+      <div class="nombre_section" id="bebidasSection">
         Bebidas
       </div>
     </div>
-    <div class="platillos">
+    <form class="platillos">
       <div id="platillo1">
         <div class="nombre_platillo">
           Limonada
@@ -43,15 +42,10 @@
             $ 20
           </div>
           <div class="contador">
-            <div class="resta">
-              -
-            </div>
-            <div class="cantidad">
-              <label for="">N</label>
-            </div>
-            <div class="suma">
-              +
-            </div>
+            <button class="restar" id="quitarBebidasLimonada"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorBebidasLimonada" readonly="readonly" class="cantidad" value="0" min="0"
+              max="50">
+            <button class="agregar" id="agregarBebidasLimonada"><i class="bi bi-plus-circle"></i></i></button>
           </div>
         </div>
       </div>
@@ -70,22 +64,17 @@
             $ 25
           </div>
           <div class="contador">
-            <div class="resta">
-              -
-            </div>
-            <div class="cantidad">
-              <label for="">N</label>
-            </div>
-            <div class="suma">
-              +
-            </div>
+            <button class="restar" id="quitarBebidasCoronaClara"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorBebidasCoronaClara" readonly="readonly" class="cantidad" value="0" min="0"
+              max="50">
+            <button class="agregar" id="agregarBebidasCoronaClara"><i class="bi bi-plus-circle"></i></i></button>
           </div>
         </div>
       </div>
       <br>
-      <div id="platillo1">
+      <div id="platillo3">
         <div class="nombre_platillo">
-          Clericó
+          Cerveza Corona Oscura
         </div>
         <div class="platillo-descripcion">
           <div class="resena">
@@ -97,19 +86,232 @@
             $ 25
           </div>
           <div class="contador">
-            <div class="resta">
-              -
-            </div>
-            <div class="cantidad">
-              <label for="">N</label>
-            </div>
-            <div class="suma">
-              +
-            </div>
+            <button class="restar" id="quitarBebidasCoronaOscura"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorBebidasCoronaOscura" readonly="readonly" class="cantidad" value="0" min="0"
+              max="50">
+            <button class="agregar" id="agregarBebidasCoronaOscura"><i class="bi bi-plus-circle"></i></i></button>
           </div>
         </div>
       </div>
-    </div>
+      <br>
+      <div id="platillo4">
+        <div class="nombre_platillo">
+          Clericó
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 40
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarBebidasClerico"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorBebidasClerico" readonly="readonly" class="cantidad" value="0" min="0"
+              max="50">
+            <button class="agregar" id="agregarBebidasClerico"><i class="bi bi-plus-circle"></i></i></button>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="platillo5">
+        <div class="nombre_platillo">
+          Piñada
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 30
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarBebidasPinada"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorBebidasPinada" readonly="readonly" class="cantidad" value="0" min="0"
+              max="50">
+            <button class="agregar" id="agregarBebidasPinada"><i class="bi bi-plus-circle"></i></i></button>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="platillo6">
+        <div class="nombre_platillo">
+          Fresada
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 30
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarBebidasFresada"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorBebidasFresada" readonly="readonly" class="cantidad" value="0" min="0"
+              max="50">
+            <button class="agregar" id="agregarBebidasFresada"><i class="bi bi-plus-circle"></i></i></button>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="platillo7">
+        <div class="nombre_platillo">
+          Cocola Original
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 20
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarBebidasCocacolaOriginal"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorBebidasCocacolaOriginal" readonly="readonly" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarBebidasCocacolaOriginal"><i class="bi bi-plus-circle"></i></i></button> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="platillo8">
+        <div class="nombre_platillo">
+          Cocola Light
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 20
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarBebidasCocacolaLight"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorBebidasCocacolaLight" readonly="readonly" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarBebidasCocacolaLight"><i class="bi bi-plus-circle"></i></i></button> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="platillo9">
+        <div class="nombre_platillo">
+          Cocola Sin Azucar
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 20
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarBebidasCocacolaSinAzucar"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorBebidasCocacolaSinAzucar" readonly="readonly" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarBebidasCocacolaSinAzucar"><i class="bi bi-plus-circle"></i></i></button> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="platillo10">
+        <div class="nombre_platillo">
+          Sprite
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 20
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarBebidasSprite"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorBebidasSprite" readonly="readonly" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarBebidasSprite"><i class="bi bi-plus-circle"></i></i></button> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="platillo11">
+        <div class="nombre_platillo">
+          Fanta
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 20
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarBebidasFanta"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorBebidasFanta" readonly="readonly" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarBebidasFanta"><i class="bi bi-plus-circle"></i></i></button> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="platillo12">
+        <div class="nombre_platillo">
+          Copa de Vino Tinto
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 40
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarBebidasCopaVinoTinto"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorBebidasCopaVinoTinto" readonly="readonly" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarBebidasCopaVinoTinto"><i class="bi bi-plus-circle"></i></i></button> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="platillo13">
+        <div class="nombre_platillo">
+          Botella de Vino Tinto
+        </div>
+        <div class="platillo-descripcion">
+          <div class="resena">
+            Contrary to popular belief,
+            Lorem Ipsum is not simply
+            random text.
+          </div>
+          <div class="precio">
+            $ 250
+          </div>
+          <div class="contador">
+            <button class="restar" id="quitarBebidasBotellaVinoTinto"><i class="bi bi-dash-circle"></i></button>
+            <input type="number" id="contadorBebidasBotellaVinoTinto" readonly="readonly" class="cantidad" value="0" min="0" max="50">
+            <button class="agregar" id="agregarBebidasBotellaVinoTinto"><i class="bi bi-plus-circle"></i></i></button> 
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </form>
     <div class="acciones">
       <div class="mesero">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person"
@@ -130,5 +332,7 @@
     </div>
   </div>
 </body>
+
+<script src="js/sections.js" language="javascript" type="text/javascript"></script>
 
 </html>

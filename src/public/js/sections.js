@@ -128,7 +128,14 @@ if (mariscosSection) {
   let mariscosTostadaAtun = agregarProducto('quitarMariscosTostaditasAtun', 'agregarMariscosTostaditasAtun', 'contadorMariscosTostaditasAtun');
 }
 
+// BEBIDAS
+
+
 // POSTRES
-let postreVolcanChocolate = agregarProducto('quitarPostreVolcanChocolate', 'agregarPostreVolcanChocolate', 'contadorPostreVolcanChocolate');
-let postreChurrosCajeta = agregarProducto('quitarPostreChurrosCajeta', 'agregarPostreChurrosCajeta', 'contadorPostreChurrosCajeta');
-let postreFlan = agregarProducto('quitarPostreFlan', 'agregarPostreFlan', 'contadorPostreFlan');
+let postresSection = document.getElementById('postresSection');
+
+if (postresSection) {
+    let postreVolcanChocolate = agregarProducto('quitarPostreVolcanChocolate', 'agregarPostreVolcanChocolate', 'contadorPostreVolcanChocolate');
+    let postreChurrosCajeta = agregarProducto('quitarPostreChurrosCajeta', 'agregarPostreChurrosCajeta', 'contadorPostreChurrosCajeta');
+    let postreFlan = agregarProducto('quitarPostreFlan', 'agregarPostreFlan', 'contadorPostreFlan');
+}
