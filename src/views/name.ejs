@@ -17,15 +17,13 @@
     <div class="logo">
       <img src="img/logo_casa_parrilla_sin_bordes.png" width="150" height="150">
     </div>
-    <div class="nombre">
-      Nombre
-      <div class="campo">
-        <input type="text" placeholder="Tu nombre" maxlength="25" size="21">
+    <form class="form-name">
+      <div class="nombre">
+        Nombre
       </div>
-    </div>
-    <div class="boton-aceptar col-12">
-      <a href="./principal_menu">Aceptar</a>
-    </div>
+      <input type="text" id="nombreCliente" placeholder="Tu nombre" maxlength="25" size="21">
+      <button id="botonAceptar" class="boton-aceptar col-12" onclick="newLocation()">Aceptar</button>
+    </form>
   </div>
 </body>
 

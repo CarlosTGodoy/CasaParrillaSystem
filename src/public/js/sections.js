@@ -2,7 +2,6 @@ function agregarProducto(btnQuitar, btnAgregar, inputCantidad) {
   let btnQuitarProducto = document.getElementById(btnQuitar);
   let btnAgregarProducto = document.getElementById(btnAgregar);
   let inputCantidadProducto = document.getElementById(inputCantidad);
-  console.log(inputCantidadProducto);
   let value = inputCantidadProducto.value;
 
   btnQuitarProducto.addEventListener('click', (event) => {
@@ -21,7 +20,7 @@ function agregarProducto(btnQuitar, btnAgregar, inputCantidad) {
       value++;
       inputCantidadProducto.value = value;
     }
-  })
+  });
 }
 
 
@@ -129,13 +128,30 @@ if (mariscosSection) {
 }
 
 // BEBIDAS
+let bebidasSection = document.getElementById('bebidasSection');
+
+if (bebidasSection) {
+  let bebidasLimonada = agregarProducto('quitarBebidasLimonada', 'agregarBebidasLimonada', 'contadorBebidasLimonada');
+  let bebidasCoronaClara = agregarProducto('quitarBebidasCoronaClara', 'agregarBebidasCoronaClara', 'contadorBebidasCoronaClara');
+  let bebidasCoronaObscura = agregarProducto('quitarBebidasCoronaOscura', 'agregarBebidasCoronaOscura', 'contadorBebidasCoronaOscura');
+  let bebidasClerico = agregarProducto('quitarBebidasClerico', 'agregarBebidasClerico', 'contadorBebidasClerico');
+  let bebidasPinada = agregarProducto('quitarBebidasPinada', 'agregarBebidasPinada', 'contadorBebidasPinada');
+  let bebidasFresada = agregarProducto('quitarBebidasFresada', 'agregarBebidasFresada', 'contadorBebidasFresada');
+  let bebidasCocaOriginal = agregarProducto('quitarBebidasCocacolaOriginal', 'agregarBebidasCocacolaOriginal', 'contadorBebidasCocacolaOriginal');
+  let bebidasCocaLight = agregarProducto('quitarBebidasCocacolaLight', 'agregarBebidasCocacolaLight', 'contadorBebidasCocacolaLight');
+  let bebidasCocaSinAzucar = agregarProducto('quitarBebidasCocacolaSinAzucar', 'agregarBebidasCocacolaSinAzucar', 'contadorBebidasCocacolaSinAzucar');
+  let bebidasSprite = agregarProducto('quitarBebidasSprite', 'agregarBebidasSprite', 'contadorBebidasSprite');
+  let bebidasFanta = agregarProducto('quitarBebidasFanta', 'agregarBebidasFanta', 'contadorBebidasFanta');
+  let bebidasCopaVinoTinto = agregarProducto('quitarBebidasCopaVinoTinto', 'agregarBebidasCopaVinoTinto', 'contadorBebidasCopaVinoTinto');
+  let bebidasBotellaVinoTinto = agregarProducto('quitarBebidasBotellaVinoTinto', 'agregarBebidasBotellaVinoTinto', 'contadorBebidasBotellaVinoTinto');
+}
 
 
 // POSTRES
 let postresSection = document.getElementById('postresSection');
 
 if (postresSection) {
-    let postreVolcanChocolate = agregarProducto('quitarPostreVolcanChocolate', 'agregarPostreVolcanChocolate', 'contadorPostreVolcanChocolate');
-    let postreChurrosCajeta = agregarProducto('quitarPostreChurrosCajeta', 'agregarPostreChurrosCajeta', 'contadorPostreChurrosCajeta');
-    let postreFlan = agregarProducto('quitarPostreFlan', 'agregarPostreFlan', 'contadorPostreFlan');
+  let postreVolcanChocolate = agregarProducto('quitarPostreVolcanChocolate', 'agregarPostreVolcanChocolate', 'contadorPostreVolcanChocolate');
+  let postreChurrosCajeta = agregarProducto('quitarPostreChurrosCajeta', 'agregarPostreChurrosCajeta', 'contadorPostreChurrosCajeta');
+  let postreFlan = agregarProducto('quitarPostreFlan', 'agregarPostreFlan', 'contadorPostreFlan');
 }
