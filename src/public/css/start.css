@@ -60,16 +60,19 @@ body{
   padding-top: 20px;
 }
 
-.boton-aceptar {
-  padding: 5px;
+.boton-aceptar button {
+  padding: 10px;
   border-radius: 15px;
-  color: white;
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
   text-shadow: 1px 1px black;
   font-size: 1.7em;
-  transition: all .3s ease;
   border: 2px solid #2ea44f;
   background-color: #2ea44f;
+}
+
+.boton-aceptar a {
+  text-decoration: none;
+  color: white;
 }
