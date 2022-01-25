@@ -1,12 +1,12 @@
-let botonAceptar = document.getElementById(botonAceptar);
+let btnAceptarNombre = document.getElementById('btnAceptar');
 
-botonAceptar.addEventListener('click', (event) => {
-    event.preventDefault();
-    let nombreCliente = document.getElementById(nombreCliente);
-    
-    if (!nombreCliente.value) {
-        alert('Ingresa un nombre para registrar la cuenta');
-    } else {
-        document.location.href
-    }
+btnAceptarNombre.addEventListener('click', (event) => {
+  event.preventDefault();
+  let inputCliente = document.getElementById('nombreCliente');
+
+  if (!inputCliente.value) {
+    alert('Ingresa un nombre para registrar la cuenta');
+  } else {
+    document.location.href = '/principal_menu';
+  }
 });
