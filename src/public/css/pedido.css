@@ -93,15 +93,14 @@ body {
   border-radius: 15px;
   font-size: 1.7em;
   display: inline-block;
-  transition: all .3s ease;
 }
 
-.botones-acciones a {
+.botones-acciones i {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
-.llamar-mesero {
+.boton-mesero {
 	position:fixed;
 	width:60px;
 	height:60px;
@@ -116,6 +115,22 @@ body {
 	box-shadow: 2px 2px 3px black;
 }
 
-.llamar-mesero svg {
-  color: white;
+.boton-seguir-ordenando {
+  display: block;
+}
+
+.boton-ordernar {
+  display: block;
+}
+
+.boton-editar-pedido {
+  display: none;
+}
+
+.boton-pagar {
+  display: none;
+}
+
+button {
+  box-shadow: 2px 2px 3px black;
 }
