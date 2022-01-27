@@ -5,7 +5,7 @@ btnLlamarMesero.addEventListener('click', (event) => {
   let ventanaLlamarMesero = document.getElementById('ventanaLlamarMesero');
   ventanaLlamarMesero.style.display="block";
 
-  setTimeout(function() {
+  setTimeout(() => {
     ventanaLlamarMesero.style.display="none";
-  },2000);
+  }, 2000);
 });

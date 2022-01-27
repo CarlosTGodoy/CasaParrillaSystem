@@ -1,0 +1,65 @@
+.ordenar-pedido {
+    position: fixed;
+    background-color: white;
+    width: 55%;
+    box-shadow: 2px 2px 3px black;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    border-radius: 22px;
+    top: 45%;
+    left: 20%;
+    display: none;
+}
+
+.ordenar-pedido svg {
+    color: #3D9E21;
+    width: 40px;
+    height: 40px;
+}
+
+.cancelar-pedido {
+    position: fixed;
+    background-color: white;
+    width: 55%;
+    box-shadow: 2px 2px 3px black;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    border-radius: 22px;
+    top: 45%;
+    left: 20%;
+    display: none;
+}
+
+.cancelar-pedido svg {
+    color: #E02825;
+    width: 40px;
+    height: 40px;
+}
+
+.pagar-pedido {
+    position: fixed;
+    background-color: white;
+    width: 55%;
+    box-shadow: 2px 2px 3px black;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    border-radius: 22px;
+    top: 45%;
+    left: 20%;
+    display: none;
+}
+
+.pagar-pedido svg {
+    color: #3D9E21;
+    width: 40px;
+    height: 40px;
+}
