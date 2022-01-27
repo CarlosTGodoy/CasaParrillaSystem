@@ -93,7 +93,7 @@ body div.section{
   -o-background-size: cover !important;
 }
 
-.mesero {
+.boton-mesero {
 	position:fixed;
 	width:60px;
 	height:60px;
@@ -108,7 +108,7 @@ body div.section{
 	box-shadow: 2px 2px 3px black;
 }
 
-.pedido {
+.boton-pedido {
   position:fixed;
 	width:60px;
 	height:60px;
@@ -123,6 +123,6 @@ body div.section{
 	box-shadow: 2px 2px 3px black;
 }
 
-.pedido svg, .mesero svg {
+.boton-pedido svg, .boton-mesero svg {
   color: white;
 }

@@ -1,4 +1,4 @@
-let btnLlamarMesero = document.getElementById('llamarMesero');
+let btnLlamarMesero = document.getElementById('botonMesero');
 
 btnLlamarMesero.addEventListener('click', (event) => {
   event.preventDefault();
