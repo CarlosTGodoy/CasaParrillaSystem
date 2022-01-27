@@ -5,8 +5,7 @@ let btnRealizarPago = document.getElementById('botonPagar');
 
 let sectionMenuPrincipal = document.getElementById('divMenuPrincipal');
 let sectionPagar = document.getElementById('divPagar');
-
-
+let sectionOrdenar = document.getElementById('divOrdenar');
 
 if (btnSeguirOrdenando) {
   btnSeguirOrdenando.addEventListener('click', (event) => {
@@ -23,7 +22,7 @@ if (btnOrdenarPedido) {
 
     setTimeout(() => {
       ventanaOrdenarPedido.style.display="none";
-      sectionMenuPrincipal.style.display="none";
+      sectionOrdenar.style.display="none"
       sectionPagar.style.display="block";
     }, 2000);
   });
@@ -49,8 +48,10 @@ if (btnCancelarPedido) {
     let ventanaCancelarPedido = document.getElementById('cancelarPedido');
     ventanaCancelarPedido.style.display='block';
     
+    /*
     setTimeout(() => {
       ventanaCancelarPedido.style.display="none";
     }, 2000);
+    */
   });
 }
